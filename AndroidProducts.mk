@@ -13,3 +13,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/syberia_lithium.mk 
+
+COMMON_LUNCH_CHOICES := \
+    syberia_lithium-user \
+    syberia_lithium-userdebug \
+    syberia_lithium-eng
