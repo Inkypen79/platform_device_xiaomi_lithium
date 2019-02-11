@@ -47,7 +47,7 @@ const int CPU_SENSORS[] = {4, 6, 9, 11};
 //qcom,freq-mitigation-temp
 #define CPU_THROTTLING_THRESHOLD      95
 #define BATTERY_SHUTDOWN_THRESHOLD    60
-// device/xiaomi/gemini/configs/thermal-engine.conf
+// device/xiaomi/lithium/configs/thermal-engine.conf
 #define SKIN_THROTTLING_THRESHOLD     47
 #define SKIN_SHUTDOWN_THRESHOLD       60
 #define VR_THROTTLED_BELOW_MIN        58

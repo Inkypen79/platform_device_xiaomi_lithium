@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#ifndef DEVICE_XIAOMI_GEMINI_HEALTH_CYCLECOUNTBACKUPRESTORE_H
-#define DEVICE_XIAOMI_GEMINI_HEALTH_CYCLECOUNTBACKUPRESTORE_H
+#ifndef DEVICE_XIAOMI_LITHIUM_HEALTH_CYCLECOUNTBACKUPRESTORE_H
+#define DEVICE_XIAOMI_LITHIUM_HEALTH_CYCLECOUNTBACKUPRESTORE_H
 #include <string>
 #include <android-base/file.h>
 #include <android-base/strings.h>
@@ -22,7 +22,7 @@
 
 namespace device {
 namespace xiaomi {
-namespace gemini {
+namespace lithium {
 namespace health {
  static constexpr int kBucketCount = 8;
  class CycleCountBackupRestore {
@@ -41,7 +41,7 @@ public:
 };
 
 } // namespace health
-} // namespace gemini
+} // namespace lithium
 } // namespace xiaomi
 } // namespace device
-#endif // #ifndef DEVICE_XIAOMI_GEMINI_HEALTH_CYCLECOUNTBACKUPRESTORE_H
+#endif // #ifndef DEVICE_XIAOMI_LITHIUM_HEALTH_CYCLECOUNTBACKUPRESTORE_H

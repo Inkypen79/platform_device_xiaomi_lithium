@@ -17,7 +17,7 @@
 
 BOARD_VENDOR := xiaomi
 
-VENDOR_PATH  := device/xiaomi/gemini
+VENDOR_PATH  := device/xiaomi/lithium
 ANDROID_TOP := $(shell pwd)
 
 # Architecture
@@ -37,7 +37,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(VENDOR_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := gemini
+TARGET_OTA_ASSERT_DEVICE := lithium
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8996
@@ -62,7 +62,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := gemini_defconfig
+TARGET_KERNEL_CONFIG := lithium_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8996
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
 KERNEL_TOOLCHAIN := $(ANDROID_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1/bin
@@ -219,7 +219,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_gemini
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_lithium
 TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
 
 # Render
@@ -234,8 +234,8 @@ include device/qcom/sepolicy/sepolicy.mk
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_gemini
-TARGET_RECOVERY_DEVICE_MODULES := libinit_gemini
+TARGET_INIT_VENDOR_LIB := libinit_lithium
+TARGET_RECOVERY_DEVICE_MODULES := libinit_lithium
 
 # WebView Beta
 PREBUILT_WEBVIEW_VERSION := chromium
@@ -258,4 +258,4 @@ WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/xiaomi/gemini/BoardConfigVendor.mk
+-include vendor/xiaomi/lithium/BoardConfigVendor.mk

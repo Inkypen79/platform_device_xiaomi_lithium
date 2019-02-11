@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/xiaomi/gemini/gemini-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/lithium/lithium-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/msm8996-common/msm8996-common-vendor.mk)
 
 #Miui Camera
@@ -162,7 +162,7 @@ PRODUCT_PACKAGES += \
 
 # Default permissions
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/privapp-permissions-gemini.xml:system/etc/permissions/privapp-permissions-gemini.xml
+    $(LOCAL_PATH)/privapp-permissions-lithium.xml:system/etc/permissions/privapp-permissions-lithium.xml
 
 # Display
 PRODUCT_PACKAGES += \
@@ -317,7 +317,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_gemini
+    librecovery_updater_lithium
 
 # RIL
 PRODUCT_PACKAGES += \
@@ -399,7 +399,7 @@ PRODUCT_PACKAGES += \
     init.tfa.sh \
     tinyplay
 
-PRODUCT_PROPERTY_OVERRIDES += ro.hardware.power=gemini
+PRODUCT_PROPERTY_OVERRIDES += ro.hardware.power=lithium
 
 #Vendor's public libraries
 PRODUCT_COPY_FILES += \

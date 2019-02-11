@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power@1.2-service.gemini-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.2-service.lithium-libperfmgr"
 
 #include <android/log.h>
 #include <hidl/HidlTransportSupport.h>

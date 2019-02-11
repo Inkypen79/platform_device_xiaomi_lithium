@@ -22,8 +22,8 @@ LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_OWNER := qcom
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_MODULE := android.hardware.power@1.2-service.gemini-libperfmgr
-LOCAL_INIT_RC := android.hardware.power@1.2-service.gemini-libperfmgr.rc
+LOCAL_MODULE := android.hardware.power@1.2-service.lithium-libperfmgr
+LOCAL_INIT_RC := android.hardware.power@1.2-service.lithium-libperfmgr.rc
 LOCAL_SRC_FILES := service.cpp Power.cpp InteractionHandler.cpp power-helper.c
 
 ifeq ($(TARGET_HAS_NO_WLAN_STATS),true)

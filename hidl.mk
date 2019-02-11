@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
 
 # Power HIDL
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.gemini-libperfmgr
+    android.hardware.power@1.2-service.lithium-libperfmgr
 
 # RenderScript HIDL
 PRODUCT_PACKAGES += \
@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-service.gemini
+    android.hardware.health@2.0-service.lithium
 
 
 # Vibrator HIDL

@@ -28,7 +28,7 @@
  */
 
 #define LOG_NIDEBUG 0
-#define LOG_TAG "android.hardware.power@1.2-service.gemini-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.2-service.lithium-libperfmgr"
 
 #include <errno.h>
 #include <inttypes.h>

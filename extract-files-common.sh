@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-#export DEVICE=gemini
+#export DEVICE=lithium
 export DEVICE_COMMON=msm8996-common
 export VENDOR=xiaomi
 

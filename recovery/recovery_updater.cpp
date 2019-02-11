@@ -194,6 +194,6 @@ Value * VerifyModemFn(const char *name, State *state, const std::vector<std::uni
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
-void Register_librecovery_updater_gemini() {
-    RegisterFunction("gemini.verify_modem", VerifyModemFn);
+void Register_librecovery_updater_lithium() {
+    RegisterFunction("lithium.verify_modem", VerifyModemFn);
 }

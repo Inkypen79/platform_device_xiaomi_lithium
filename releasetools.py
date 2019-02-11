@@ -32,6 +32,6 @@ def AddModemAssertion(info, input_zip):
   if m:
     versions = m.group(1).split('|')
     if len(versions) and '*' not in versions:
-      cmd = 'assert(gemini.verify_modem(' + ','.join(['"%s"' % modem.strip() for modem in versions]) + ') == "1");'
+      cmd = 'assert(lithium.verify_modem(' + ','.join(['"%s"' % modem.strip() for modem in versions]) + ') == "1");'
       info.script.AppendExtra(cmd)
   return

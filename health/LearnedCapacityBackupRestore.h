@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef DEVICE_XIAOMI_GEMINI_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
-#define DEVICE_XIAOMI_GEMINI_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
+#ifndef DEVICE_XIAOMI_LITHIUM_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
+#define DEVICE_XIAOMI_LITHIUM_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
 
 #include <android-base/file.h>
 #include <android-base/logging.h>
@@ -24,7 +24,7 @@
 
 namespace device {
 namespace xiaomi {
-namespace gemini {
+namespace lithium {
 namespace health {
 
 class LearnedCapacityBackupRestore {
@@ -45,8 +45,8 @@ class LearnedCapacityBackupRestore {
 };
 
 }  // namespace health
-}  // namespace gemini
+}  // namespace lithium
 }  // namespace xiaomi
 }  // namespace device
 
-#endif  // #ifndef DEVICE_XIAOMI_GEMINI_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H
+#endif  // #ifndef DEVICE_XIAOMI_LITHIUM_HEALTH_LEARNEDCAPACITYBACKUPRESTORE_H

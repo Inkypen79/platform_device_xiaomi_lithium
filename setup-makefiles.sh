@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=gemini
+DEVICE=lithium
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2016

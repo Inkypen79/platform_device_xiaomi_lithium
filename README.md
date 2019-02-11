@@ -1,28 +1,26 @@
-Copyright (C) 2016 - The CyanogenMod Project
+Copyright (C) 2017-2018 The LineageOS Project
 
-Copyright (C) 2017-2018 - The LineageOS Project
+Device configuration for Xiaomi Mi MIX
+=========================================
 
-Device configuration for Xiaomi Mi 5
-==============
+The Xiaomi Mi MIX (codenamed _"lithium"_) is a high-end smartphone from Xiaomi.
 
-The Xiaomi Mi 5 (codenamed _"gemini"_) is a high-end smartphone from Xiaomi.
-
-It was announced in February 2016, in three flavours. Release date was April 2016.
+It was announced in October 2016. Release date was November 2016.
 
 ## Device specifications
 
-| Feature      | Mi 5 Standard Edition                           | Mi 5 Pro Edition                                | Mi 5 Exclusive Edition                         |
-| -----------: | :---------------------------------------------- | :---------------------------------------------- | :--------------------------------------------- |
-| SoC          | Qualcomm MSM8996 Lite Snapdragon 820            | Qualcomm MSM8996 Snapdragon 820                 | Qualcomm MSM8996 Snapdragon 820                |
-| CPU          | Quad-core (2x1.8 GHz Kryo & 2x1.36 GHz Kryo)    | Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)    | Quad-core (2x2.15GHz Kryo & 2x1.6 GHz Kryo)    |
-| GPU          | Adreno 530 (510 MHz)                            | Adreno 530 (624 MHz)                            | Adreno 530 (624 MHz)                           |
-| Memory       | 3 GB RAM (LPDDR4 1333MHz dual-channel)          | 3 GB RAM (LPDDR4 1866MHz dual-channel)          | 4 GB RAM (LPDDR4 1866MHz dual-channel)         |
-| Shipped Android version | 6.0 with MIUI 7                      | 6.0 with MIUI 7                                 | 6.0 with MIUI 7                                |
-| Storage      | 32 GB (UFS 2.0 Flash)                           | 64 GB (UFS 2.0 Flash)                           | 128 GB (UFS 2.0 Flash)                         |
-| Battery      | Non-removable Li-Po 3000 mAh                    | Non-removable Li-Po 3000 mAh                    | Non-removable Li-Po 3000 mAh                   |
-| Display      | 1080 x 1920 pixels, 5.15 inches, IPS LCD (~428 ppi density) | 1080 x 1920 pixels, 5.15 inches, IPS LCD (~428 ppi density) | 1080 x 1920 pixels, 5.15 inches, IPS LCD (~428 ppi density) |
-| Camera       | 16 MPx, f/2.0, PDAF autofocus, 4-axis OIS, dual-LED (dual tone) flash | 16 MPx, f/2.0, PDAF autofocus, 4-axis OIS, dual-LED (dual tone) flash | 16 MPx, f/2.0, PDAF autofocus, 4-axis OIS, dual-LED (dual tone) flash |
+Basic   | Spec Sheet
+-------:|:-------------------------
+SoC     | Qualcomm MSM8996 Pro Snapdragon 821
+CPU     | Quad-core (2x2.35 GHz Kryo & 2x2.19 GHz Kryo)
+GPU     | Adreno 530 (652 MHz)
+Memory  | 4/6 GB RAM (LPDDR4 1866 MHz dual-channel)
+Shipped Android Version | 6.0.1 with MIUI 7
+Storage | 128/256 GB (UFS 2.0 Flash)
+Battery | Non-removable Li-Po 4400 mAh battery
+Display | 1080 x 2040 pixels, 6.4 inches, IPS LCD (~362 ppi density)
+Camera  | 16 MP, f/2.0, EIS (gyro), phase detection autofocus, dual-LED (dual tone) flash
 
 ## Device picture
 
-![Xiaomi Mi 5](http://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-5-black-01_14051_1456305832.jpg "Xiaomi Mi 5 in black")
+![Xiaomi Mi MIX](https://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-mix-ceramic-black-18k-gold-01_14542_1477466272.jpg "Xiaomi Mi MIX in black")
