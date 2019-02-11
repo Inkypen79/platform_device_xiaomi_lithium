@@ -109,7 +109,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.enable_vds=1 \
     persist.sys.wfd.virtual=0 \
     ro.opengles.version=196610 \
-    ro.sf.lcd_density=480
+    ro.sf.lcd_density=360
 
 #property to specify the number of frames to skip before setting hint
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -217,7 +217,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.inputopts.enable=true \
     persist.vendor.qti.inputopts.movetouchslop=0.6 \
     ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0 \
-    sys.use_fifo_ui=1
+    sys.use_fifo_ui=1 \
+    qemu.hw.mainkeys=0
 
 #LMKD props
 PRODUCT_PROPERTY_OVERRIDES += \
