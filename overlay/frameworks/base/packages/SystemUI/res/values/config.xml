@@ -36,6 +36,9 @@
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
+     
+     <!-- Doze: check proximity sensor before pulsing? -->
+    <bool name="doze_proximity_check_before_pulse">false</bool>
 
     <!-- System icon area layout weight -->
     <item name="system_icon_area_weight" format="float" type="integer">1.75</item>
