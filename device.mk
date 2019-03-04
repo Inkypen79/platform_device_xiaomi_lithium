@@ -142,6 +142,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.usb.rc \
     ueventd.qcom.rc \
+    init.safailnet.rc \
     init.qcom.sh 
 #    init.spectrum.rc \
 #    init.spectrum.sh
