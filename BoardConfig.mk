@@ -241,6 +241,9 @@ PREBUILT_WEBVIEW_VERSION := chromium
 #DEX
 DONT_DEXPREOPT_PREBUILTS := true
 
+# System as root
+BOARD_ROOT_EXTRA_FOLDERS := persist
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
