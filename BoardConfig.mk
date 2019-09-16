@@ -232,7 +232,7 @@ include device/qcom/sepolicy/sepolicy.mk
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_lithium
+TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_lithium
 TARGET_RECOVERY_DEVICE_MODULES := libinit_lithium
 
 # WebView Beta
